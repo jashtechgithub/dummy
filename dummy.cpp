@@ -2,14 +2,6 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
-// Define a structure to represent a bank account
-struct BankAccount {
-    string accountNumber;
-    string accountHolderName;
-    double balance;
-};
 
 // Function to display account information
 void displayAccount(const BankAccount& account) {
